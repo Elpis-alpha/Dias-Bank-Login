@@ -476,12 +476,12 @@ div.eye-icon.close {
   .end-part nav {
     flex-direction: column;
   }
-  
+
   .end-part nav a {
     padding-bottom: .5pc;
   }
 .end-part nav div.head img {
-  width: 20%;
+  width: 30%;
 }
 
 }
