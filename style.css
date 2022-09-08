@@ -472,6 +472,20 @@ div.eye-icon.close {
   width: 100%;
 }
 
+@media screen and (max-width: 1000px) {
+  .end-part nav {
+    flex-direction: column;
+  }
+  
+  .end-part nav a {
+    padding-bottom: .5pc;
+  }
+.end-part nav div.head img {
+  width: 20%;
+}
+
+}
+  
 .finish {
   background-color: #000;
   color: #fff;
