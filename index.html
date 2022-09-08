@@ -103,11 +103,7 @@
 
           <span>Disclosures</span>
 
-          <div class="bt-ico">
-
-            ^
-
-          </div>
+          <div class="bt-ico"></div>
 
         </button>
 
@@ -294,6 +290,8 @@
     })
 
     document.querySelector('.top-ctrl').addEventListener('click', e => {
+
+      document.querySelector('.bt-ico').classList.toggle("visible")
 
       document.querySelector('.end-view').classList.toggle("visible")
 

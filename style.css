@@ -398,11 +398,27 @@ div.eye-icon.close {
   border-bottom: 1px solid #fff;
   bottom: -1px;
   border-radius: .3pc .3pc 0 0;
-  color: #232323;
+  color: #707070;
   font-weight: bold;
   cursor: pointer;
+  align-items: center;
 }
 
+.mid-part .top-ctrl button .bt-ico {
+  width: 1pc;
+  margin-left: 1pc;
+  height: 1pc;
+  background: url(assets/angle-down.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: transform .7s;
+}
+
+.mid-part .top-ctrl button .bt-ico.visible {
+  transition: transform .3s;
+  transform: rotate(180deg);
+}
 
 .mid-part .end-view {
   max-height: 0;
